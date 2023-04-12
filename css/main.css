@@ -1,0 +1,226 @@
+/*header*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/*rectangle*/
+.rectangle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.group p{
+    margin-left: 16px;
+}
+/*rectangle*/
+
+/*products*/
+.products{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+}
+.products P a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #22343D;
+}
+.products a:hover{
+    color: black;
+    font-weight: 600;
+}
+/*products*/
+
+/*button*/
+.sign_in{
+    background: transparent;
+    border: none;
+    padding: 14px 30px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 24px;
+}
+.sign_up{
+    background: transparent;
+    border: none;
+    background-color:#02897A ;
+    color: #FFFFFF;
+    padding: 14px 30px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+.frame img{
+    width: 32px;
+    height: 32px;
+}
+/*button*/
+/*header*/
+
+/*main*/
+.Group{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.band h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #22343D;
+}
+.band p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #22343D;
+    margin-top: 18px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    border: none;
+    background: transparent;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 23px 45px;
+    background-color: #02897A;
+    border-radius: 4px;
+    margin-top: 45px;
+}
+.btn1{
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    margin-top: 45px;
+}
+.btn1 a{
+    color: #02897A;
+}
+.b{
+   margin-top: 50px;
+   margin-left: 30.5px;
+   margin-right: 8.5px; 
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 17px;
+    color: #22343D;
+    margin-top: 100px;
+}
+.bg{
+    background-image: url('../img/Bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    width: 100%;
+    height: 389px;
+    margin-top: 60px;
+    top: 500px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card img{
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+}
+.card h1{
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 30px;
+    color: #22343D;
+}
+.card p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343D;
+    margin-top: 13px;
+}
+.qnopka{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 60px;
+}
+.qnopka button{
+    display: flex;
+    background: transparent;
+    border: none;
+    padding: 20px 40px;
+    background-color: #02897A;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+.Group1433{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+.group1433 h2{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(34, 52, 61, 1);
+}
+.group1433 h1{
+    margin-top: 8px;
+    margin-bottom: 11px;
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(34, 52, 61, 1);
+}
+.group1433 p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(34, 52, 61, 1);
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+.imgtext{
+    display: flex;
+    align-items: center;
+}
+.imgtext img{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+/*main*/
